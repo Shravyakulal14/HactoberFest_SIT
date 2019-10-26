@@ -15,6 +15,8 @@ int main(){
 			i++;
 			j--;
 		}
+		else
+			break;
 	}
 	if(i>j){
 		printf("\nPalindrome");
