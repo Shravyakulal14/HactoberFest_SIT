@@ -7,9 +7,9 @@ int main(){
 	printf("\nEnter ending number: ");
 	scanf("%d",&end);
 	for(num=start;num<end;num++){
-		if (num==0||num==1)
+		if (num==0||num==1){
 			continue;
-			
+		}
 		
 		for(i=2;i<=num/2;i++){
 			if(num%i==0){
